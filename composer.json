@@ -1,0 +1,22 @@
+{
+    "name": "minhhn/designpatternphp",
+    "description": "Design Pattern PHP",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "minhhn",
+            "email": "nhatminh7721@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "src\\": "src/"
+        }
+    },
+    "require": {
+        "fakerphp/faker": "^1.20"
+    },
+    "config": { "platform-check": false }
+}
